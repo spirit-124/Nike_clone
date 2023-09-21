@@ -39,6 +39,9 @@ function App() {
         <Footer />
       </section>
     </div>
+    // <div className="text-8xl max-lg:text-red-400 text-blue-400">
+    //   <h1>Hello</h1>
+    // </div>
   );
 }
 
