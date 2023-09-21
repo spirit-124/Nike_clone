@@ -1,16 +1,42 @@
+import {
+  Hero,
+  SpecialOffer,
+  SuperQuality,
+  Footer,
+  Subscribe,
+  CustomeReviews,
+  Services,
+  PopularProducts,
+} from "./sections";
+import Nav from "./components/Nav";
+
 function App() {
   return (
-    <div className="realative">
-      Nav{" "}
-      <section className="xl:padding-1 padding-b wide:padding-r">Hero</section>
-      <section className="padding">PopularProducts</section>
-      <section className="padding">SuperQuality</section>
-      <section className="padding-x py-10">Services</section>
-      <section className="padding">SpecialOffer</section>
-      <section className="padding bg-pale-blue">customerReviews</section>
-      <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
+    <div className="realative ">
+      <Nav />
+      <section className="xl:padding-l padding-b wide:padding-r">
+        <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQuality />
+      </section>
+      <section className="padding-x py-10">
+        <Services />
+      </section>
+      <section className="padding">
+        <SpecialOffer />
+      </section>
+      <section className="padding bg-pale-blue">
+        <CustomeReviews />
+      </section>
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Subscribe />
+      </section>
       <section className="padding-x padding-t pb-8 bg-black text-white">
-        Footer
+        <Footer />
       </section>
     </div>
   );
