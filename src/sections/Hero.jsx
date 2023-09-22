@@ -12,12 +12,12 @@ const Hero = () => {
       id="home "
       className=" w-full  p-2 flex flex-col xl:flex-row justify-center min-h-screen gap-10 max-container "
     >
-      <div className="relative xl:w-2/5 max-xl:padding-x flex flex-col justify-center items-start w-full before:pt-28">
+      <div className="relative xl:w-2/5 max-xl:padding-x flex flex-col justify-center items-start w-full pt-28 ">
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
-        <h1 className="mt-10 font-palanquin  text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
+        <h1 className="mt-10 font-palanquin  text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
+          <span className="xl:bg-white xl:whitespace-nowrap  whitespace-normal relative z-10 pr-10">
             The New Arrival
           </span>
           <br />
